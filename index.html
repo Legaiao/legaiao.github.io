@@ -5,7 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <title>Leonor Gaião</title>
+    <style>
+    /*CSS Reset */
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.container{
+    width: 100%;
+    max-width: 1024;
+    margin: auto;
+}
+
+/*header */
+.container > header{
+    background-color: #2980b9;
+    display: flex;
+}
+.container > header img{
+    width: 6rem;
+    height: auto;
+    margin: .5rem 1rem .5rem .5rem;
+}
+.container > header a:nth-child(2) {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > header h1{
+    margin: 0;
+}
+.container > footer{
+    display: flex;
+    justify-content: space-between;
+    background: #2c3e50;
+    padding: 1rem;
+    color: white;
+}
+.container > footer a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.container > footer a:hover{
+    background: gray;
+}
+.container > footer div {
+    padding: 1rem;
+}
+
+    </style>
 </head>
 <body>
 
@@ -17,6 +78,7 @@
     <a href="index.html"><img src="img/logo.jpg" alt="Leonorgaiao"</a>
     <a href="index.html"> <h1>Leonor Gaião</h1></a>
 </header>
+
 <nav>
     <a href="index.html">Início</a>
     <a href="artigos.html">Artigos</a>
@@ -35,9 +97,22 @@
     <section>
         <h2>Título Qualquer</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae tempor nulla, sit amet sagittis urna. Ut nec lacus quis nunc suscipit cursus a a nibh. Duis in maximus tortor. Integer sem ipsum, dapibus ac urna varius, pulvinar sollicitudin urna. Curabitur interdum ligula ante, vitae malesuada lectus feugiat et. Nunc ut est nec ipsum mattis commodo a eu odio. Integer iaculis, sem vitae auctor rutrum, metus arcu finibus erat, nec mollis neque odio ac sem. Suspendisse potenti. Pellentesque non erat nec lectus bibendum iaculis. Ut ut metus a dui egestas luctus et et tortor. Nullam ullamcorper neque vitae orci faucibus pretium. Vivamus auctor quis augue at accumsan.</p>
-        <img src="http://lorempixel.com/400/200" alt="Imagem qualquer">
+        <figure>
+                <img src="https://loremflickr.com/320/240/cat" alt="Imagem qualquer">
+                <figcaption>Legenda da imagem</figcaption>
+            </figure>    
         <p>Maecenas fermentum libero augue, ut pharetra enim malesuada at. Integer volutpat dolor et nisl dapibus, eu rutrum quam ullamcorper. Nulla volutpat massa accumsan risus faucibus posuere. Vestibulum tempus nisi vitae ligula commodo volutpat. Mauris molestie suscipit maximus. Integer rhoncus et ligula vel interdum. Proin cursus, elit ut pulvinar pellentesque, ante turpis euismod lectus, at vehicula tortor purus eget velit. Donec ut porttitor nisl.</p>
+        <figure>
+                <img src="https://loremflickr.com/320/240/dogs" alt="Imagem qualquer">
+                <figcaption>Legenda da imagem</figcaption>
+            </figure>  
         <p>Etiam elit turpis, pulvinar sed urna eu, fermentum consectetur tortor. Ut varius sollicitudin lorem at viverra. Curabitur commodo, elit non dictum dapibus, eros sapien rhoncus urna, ullamcorper sollicitudin elit ante quis nisi. Sed erat ligula, aliquet at efficitur vel, semper sit amet sapien. Nullam convallis congue lorem eget volutpat. Ut iaculis purus quam, ac pulvinar urna dapibus ac. Nunc lacus odio, porttitor nec laoreet ac, tempor non justo. Integer fringilla ipsum at augue vulputate vehicula. Ut id felis cursus magna semper viverra. Aliquam vel consequat risus, id ullamcorper tellus. Quisque eget erat ultricies, suscipit lorem in, lobortis lorem. Morbi a sem non velit consequat tristique sed ut ante. Etiam finibus mi ac tortor accumsan, quis molestie tortor blandit. Quisque vel nunc hendrerit, sollicitudin nibh a, varius neque. Sed id tincidunt sapien, sit amet luctus ante. Donec ultricies euismod velit eget facilisis.</p>
+        <figure>
+                <img src="https://loremflickr.com/320/240/horse" alt="Imagem qualquer">
+                <figcaption>Legenda da imagem</figcaption>
+            </figure>
+            <p>Nulla facilisi. Phasellus aliquet consequat neque in varius. In hendrerit, dolor ac pharetra dapibus, massa dui varius mi, id tempor massa mi sed sapien. In faucibus, sapien at ornare porttitor, tortor urna rutrum ex, placerat ullamcorper velit sem eget massa. Phasellus viverra consectetur erat, at malesuada magna bibendum in. Nunc ac ipsum a diam facilisis sollicitudin. Aliquam sollicitudin, ante eu sagittis vehicula, lectus nisl luctus metus, quis tincidunt elit enim ac turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin finibus porta mi, luctus elementum quam porttitor sed. Donec sollicitudin aliquet lectus. Donec fermentum sagittis urna eu iaculis. Nulla fermentum sapien vitae eros gravida, id varius quam pharetra.</p>
+
     </section>
     <aside>
             <div class="box">
